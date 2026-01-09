@@ -1,8 +1,8 @@
 const array = [];
 
-function insertArguments(arg1, arg2,){
+function insertArguments(){
  for(let i = 2; i < Process.argv.length; i++){
-    
+
  }
 }
 
