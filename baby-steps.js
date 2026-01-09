@@ -1,7 +1,7 @@
 const array = [];
 
 function insertArguments(){
- for(let i = 2; i < Process.argv.length; i++){
+ for(let i = 2; i < process.argv.length; i++){
     const currentArgument = Value(process.argv[i])
     array.push(currentArgument)
  }
